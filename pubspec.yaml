@@ -1,0 +1,23 @@
+name: mychat
+description: A Flutter project to demonstrate google login.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/google.jpg
+    - assets/google2.jpg
+  uses-material-design: true
